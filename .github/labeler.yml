@@ -1,13 +1,16 @@
-# GitHub Action Labeler v5 yapılandırma dosyası
+# GitHub Action Labeler v5 uyumlu yapılandırma dosyası
 
+# 'example' klasörü veya alt klasörlerindeki değişiklikler için
 example_change:
   - changed-files:
     - any-glob-to-any-file: 'example/**'
 
+# 'example2' klasöründeki dosya değişiklikleri için
 example2_change:
   - changed-files:
     - any-glob-to-any-file: 'example2/*'
 
+# Tüm depodaki .txt dosyası değişiklikleri için
 text_files:
   - changed-files:
     - any-glob-to-any-file: '**/*.txt'
